@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarsProject8 teamD 問い合わせ</title>
+    <link href="form.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+    
+    <header>
+        
+        <h1>問い合わせ</h1>   
+        <p><strong> Space Suit Project に関しての質問や感想などがありましたら、下記のフォームよりご連絡をお願いします。</strong></p>    
+    <nav>
+        <ul>
+            <li><a href="index2.html">HOME</a></li>
+        </ul>
+    </nav>
+    </header>
+        <section>
+            
+            <form name="form1" method="post" action="javascript:func()">
+                <p>氏名</p>
+                <input type="text" size="20" name="name1" required />
+                <p>Email</p>
+                <input type="email" size="25" name="mail" required />
+                <p>Gmail</p>
+                <input type="gmail" size="25" name="mail" required />
+                <p>性別</p>
+                <p><input type="radio" name="sex" value="男性" />男性
+                <input type="radio" name="sex" value="女性" />女性</p>
+                <p>気に入ったデザインがありましたらチェックしてください。（複数可）</p>
+                <p><input type="checkbox" name="photo" value="10" />企業ロゴデザイン:〇〇 さん 
+                <input type="checkbox" name="photo" value="20" />一般ファッションデザイン:〇〇 さん <br/>
+                <input type="checkbox" name="photo" value="30" />ブランドデザイン:〇〇 さん 
+                <input type="checkbox" name="photo" value="40" />プリズム効果デザイン:〇〇 さん </p>
+                <p>メッセージ内容</p>
+                <textarea name="message" cols="100" rows="7"></textarea>
+                <p><input type="submit" value="送信" /></p>
+                <p><input type="reset" value="リセット" /></p>
+            </section>
+    </form>
+    <footer>Mars Space Suit Project</footer>
+</body>
+
+
+</html>
